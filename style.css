@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #795454;
+  padding: 15px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between; /* logo left, nav right */
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f5f3f3;
+}
+
+.logo span {
+  color: #f5f0f0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #c5bdbd;
+  padding: 60px 0;
+}
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-text h4 {
+  font-size: 20px;
+  color: #777;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  color: #837171;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #665757;
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.hero-img {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* About Section */
+.about {
+  background-color: #f7f7f7;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.about h4 {
+  font-size: 18px;
+  color: #f26363;
+  margin-bottom: 30px;
+}
+
+.about-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.stat-box {
+  min-width: 150px;
+}
+
+.stat-box h3 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  font-size: 16px;
+  color: #444;
+}
+
+.about-text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #555;
+}
